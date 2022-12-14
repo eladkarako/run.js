@@ -3,7 +3,7 @@ module.exports = {
   ,args    :  
 [
  "--flag-switches-begin"
-,"--user-data-dir=\"" + process.cwd() + "\\profile\""
+,"--user-data-dir=" + process.cwd() + "\\profile"
 ,"--no-default-browser-check"
 ,"--ignore-autocomplete-off-autofill"
 ,"--allow-outdated-plugins"
