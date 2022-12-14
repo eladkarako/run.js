@@ -97,6 +97,22 @@ and ShellExecute, but it means most of the native JS-object (JSON) functionality
 <br/>
 <br/>
 
+when I starting building the `run.js` script,  
+I've actually in a similar manner to previous c# and vb clients,  
+by parsing the file that holds the data (be it a json, or ini),  
+after few iterations, I've figured that most of the code is there,  
+to make the json into a javascript code, collapsing multi-line,  
+adding support for comments, adding special replacement to include the current folder, etc..  
+eventually I just figured there is no need to place the data in json then parse it,  
+just building a valid js file is perfectly fine, and the require mechanism is already pretty much  
+what I've needed. it means the so-called data-file, is a js-file, capable of using the entire extended javascript syntax 
+without any adjustments (other than adding module export) and the actual launcher is basically really is just a launcher (i.e. execute spawn),  
+with very minimal checks. that native it is something that you can not do with any other language (without a ton of pre-adjustments),  
+it isn't very safe, since the module provided can run any code, but js is a scripting language, 
+meaning you can just pre-view the very small amount of code beforehand.  
+
+
+
 <hr/>
 <br/>
 
