@@ -1,0 +1,5 @@
+D:\Documents\SharpDevelop Projects\runner\runner\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\SharpDevelop Projects\runner\runner\bin\Debug\runner.exe
+D:\Documents\SharpDevelop Projects\runner\runner\bin\Debug\runner.pdb
+D:\Documents\SharpDevelop Projects\runner\runner\obj\x86\Debug\runner.exe
+D:\Documents\SharpDevelop Projects\runner\runner\obj\x86\Debug\runner.pdb

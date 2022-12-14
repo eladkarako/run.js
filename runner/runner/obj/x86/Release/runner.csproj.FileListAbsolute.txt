@@ -1,0 +1,3 @@
+D:\Documents\SharpDevelop Projects\runner\runner\bin\Release\runner.exe
+D:\Documents\SharpDevelop Projects\runner\runner\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Documents\SharpDevelop Projects\runner\runner\obj\x86\Release\runner.exe

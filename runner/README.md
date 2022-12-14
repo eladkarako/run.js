@@ -1,0 +1,1 @@
+a very simple C# .net 3.5 program to launch either nodew.exe or node.exe along with run.js and a single additional argument, based on this exe own name. 
