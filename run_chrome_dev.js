@@ -10,11 +10,12 @@ module.exports = {
 ,"--disable-logging"
 ,"--disable-breakpad"
 ,"--disable-crash-reporter"
-,"--crash-server-url=\"https:\/\/0.0.0.0\/\""
+,"--crash-server-url=https:\/\/0.0.0.0\/"
 ,"--no-pings"
-,"--force-device-scale-factor=\"1.65\""
+,"--force-device-scale-factor=1.65"
 ,"--pull-to-refresh=0"
 ,"--start-maximized"
+,"--enable-smooth-scrolling"
 ,"--enable-password-generation"
 ,"--enable-clear-hevc-for-testing"
 ,"--autoplay-policy=document-user-activation-required"
@@ -37,6 +38,10 @@ PlatformHEVCDecoderSupport
 ,BackForwardCache:TimeToLiveInBackForwardCacheInSeconds/300/should_ignore_blocklists/true/enable_same_site/true
 ,LazyFrameLoading:automatic-lazy-load-frames-enabled/true/restrict-lazy-load-frames-to-data-saver-only/false
 ,LazyImageLoading:automatic-lazy-load-images-enabled/true/restrict-lazy-load-images-to-data-saver-only/false
+,WebShare
+,ThrottleDisplayNoneAndVisibilityHiddenCrossOriginIframes
+,TabSearchFuzzySearch:TabSearchSearchThreshold/0%2E8
+,OmniboxShortBookmarkSuggestions
 `.replace(/[\r\n]/gm,"")
 
 ,"--disable-features=" + `
@@ -48,6 +53,12 @@ DownloadBubble
 ,side-panel
 ,sidepanel
 ,enable-side-panel=false
+,SideSearch
+,SideSearchDSESupport
+,TabHoverCardImages
+,UseDnsHttpsSvcbAlpn
+,AutofillFillMerchantPromoCodeFields
+,AutofillEnableOfferNotificationForPromoCodes
 `.replace(/[\r\n]/gm,"")
 
 ,"--disable-side-panel"
